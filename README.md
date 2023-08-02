@@ -1,32 +1,44 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+# Walkthrough - Love Sandwiches
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+This walkthrough project was completed as part of my Diploma in Full Stack Software Development with Code Institute. The focus of the walkthrough was to put into practice Python.
 
-## Reminders
+Link to live site:
+https://walkthrough-love-sandwiches-gc-4981bd59c1c0.herokuapp.com
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+## Description of the Love Sandwiches application
 
-## Creating the Heroku app
+Love Sandwiches has been built for a fictional sandwich shop and links via an API to a google sheet which records:
+- sandwich sales
+- surplus stock at the end of each day
+- number of sandwiches to be made for the next day
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+The user can enter the new sandwich sales data at the end of each day and the app will calculate the surplus stock and then the number of sandwiches to be made the following day.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+The data input by the user is validated to check that it matches requirements
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Languages
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+- HTML
+- JavaScript
+- Python
 
-Connect your GitHub repository and deploy as normal.
+## Tools and technologies
 
-## Constraints
+- Git 
+- Git hub 
+- Codeanywhere
+- Google sheets
+- Google cloud platform
+- Heroku
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+## Credits
 
----
+Credit for the vast majority of both the code and content of this project is given to Code Institue. 
 
-Happy coding!
+The following files were created by myself while following instruction videos:
+- run.py
+- creds.json
+
+This README was completed independently with the following credits: CI logo by Code Institute.
